@@ -1,3 +1,3 @@
 # algorithms-for-python
-algorithms are implemented using python
--for doctest do python -m doctest -v 'filename.py'
+algorithms are implemented using python.
+*for doctest do python -m doctest -v 'filename.py'
