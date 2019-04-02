@@ -31,7 +31,7 @@ def heapify(nums,n,i):
 def heapsort(nums):
     n=len(nums)
     #build a maxheap
-    for i in range (n,-1,-1):# from n to 0 that is hapify for every element
+    for i in range (n//2-1,-1,-1):# from n to 0 that is hapify for every element
         heapify(nums,n,i)
     for i in range(n-1,0,-1):#from n-1 to 1
         nums[i],nums[0]=nums[0],nums[i] # swap
